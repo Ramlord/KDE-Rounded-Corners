@@ -149,7 +149,7 @@ ShapeCornersEffect::genRect()
 }
 
 void
-ShapeCornersEffect::setRoundness(const int r)
+ShapeCornersEffect::set](const int r)
 {
     m_alpha = 0xff;
     m_size = r;
@@ -163,7 +163,7 @@ ShapeCornersEffect::reconfigure(ReconfigureFlags flags)
 {
     Q_UNUSED(flags)
     m_alpha = 63;
-    setRoundness(5);
+    setRoundness(10);
 }
 
 void
